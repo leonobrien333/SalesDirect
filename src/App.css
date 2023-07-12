@@ -1,0 +1,189 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background-color:gray;
+}
+
+
+.font-link {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  background: black;
+  font-family: 'DM Sans', sans-serif;
+  font-size:16px;
+  box-shadow: 10px 10px 40px rgb(75, 75, 75);
+  padding-top:11px;
+}
+
+.Footer p {
+  color: white;
+  box-shadow: 0px -20px 40px rgb(0, 0, 0);
+}
+
+.Body {
+  font-family: 'DM Sans', sans-serif;
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 100vh;
+  max-width:160vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 40px rgb(75, 75, 75);
+}
+
+.Body h2 {
+  font-size:30px;
+}
+
+.navbar {
+  box-shadow: -3px 4px 10px rgb(75, 75, 75);
+  margin-left:-9px;
+}
+
+
+.Homepage-Content {
+  margin-top:30px;
+  display:flex;
+  flex-direction: column;
+  background-color: #18CE77;
+  max-height: 5vh;
+  margin-right: 10vh;
+  margin-left: 10vh;
+  border-radius:1em;
+  padding-top: 7px;
+  box-shadow: -3px 4px 10px rgb(75, 75, 75);
+}
+
+.Homepage-OfferDesc {
+  margin-top:5vh;
+  display:flex;
+  flex-direction:column;
+  background-color: #18CE77;
+  margin-right: 95vh;
+  margin-left: 1px;
+  border-radius:1em;
+  padding-top: 7px;
+  min-height: 24vh;
+}
+
+.Leads {
+  display:flex;
+  flex-direction: left;
+  padding-left: 10px;
+  border-radius:1em;
+  background: #26AFCD;
+  max-width: 120vh;
+  min-height: 45vh;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-top: 30px;
+}
+
+.Leads-Text {
+  display:flex;
+  flex-direction: column;
+  max-width:25vh;
+  background-color: #26AFCD;
+  margin-left:27vh;
+  border-radius: 1em;
+}
+
+.Deals {
+  display: flex;
+  flex-direction: left;
+  padding-left: 10px;
+  border-radius:1em;
+  background: #C769BD;
+  max-width: 120vh;
+  min-height: 45vh;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-top: 30px;
+}
+
+.Deals-Text {
+  display:flex;
+  flex-direction: column;
+  max-width:20vh;
+  background-color: #C769BD;
+  margin-left:27vh;
+  border-radius: 1em;
+}
+
+.Meetings {
+  display: flex;
+  flex-direction: left;
+  padding-left: 10px;
+  border-radius:1em;
+  background: #18CE77;
+  max-width: 120vh;
+  min-height: 45vh;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-top: 30px;
+}
+
+.Meetings-Text {
+  display:flex;
+  flex-direction: column;
+  max-width:25vh;
+  background-color: #18CE77;
+  margin-left:27vh;
+  border-radius: 1em;
+}
+
+.Win-Lose {
+  display: flex;
+  flex-direction: left;
+  padding-left: 10px;
+  border-radius:1em;
+  background: #B1B1B1;
+  max-width: 120vh;
+  min-height: 45vh;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-top: 30px;
+}
+
+.Win-Lose-Text {
+  display:flex;
+  flex-direction: column;
+  max-width:25vh;
+  background-color: #B1B1B1;
+  margin-left:27vh;
+  border-radius: 1em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  align-items: left;
+  height: 10vmin;
+  width: 20vmax;
+  padding-top:10px;
+  padding-bottom:15px;
+}
+
+.App-header {
+  background-color: rgb(255, 255, 255);
+  min-height: 5vh;
+  max-height: 12.5vh;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+
+}
+
