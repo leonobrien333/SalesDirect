@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SalesDirect/static/css/main.0b657274.css",
+    "main.js": "/SalesDirect/static/js/main.048d4fee.js",
+    "static/media/image.png": "/SalesDirect/static/media/image.c61581e8f6817d157986.png",
+    "index.html": "/SalesDirect/index.html",
+    "main.0b657274.css.map": "/SalesDirect/static/css/main.0b657274.css.map",
+    "main.048d4fee.js.map": "/SalesDirect/static/js/main.048d4fee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b657274.css",
+    "static/js/main.048d4fee.js"
+  ]
+}
